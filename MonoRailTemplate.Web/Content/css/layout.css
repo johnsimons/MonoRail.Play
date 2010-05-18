@@ -1,0 +1,49 @@
+﻿html
+{
+     font-size: 14px;    		
+	 font-family: Verdana, Arial, Helvetica, Sans Serif;
+	 margin:0px;
+}
+body
+{
+	margin:0px;
+    text-align:center;    
+    background-color:white;
+    padding :0px;
+    border-width : 0px;
+    overflow:hidden;
+}
+
+div.heading
+{
+	border-style: none;
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+    text-align: left;
+    height: 100px;
+    background-color : #77AADD;
+    border-bottom: #6699CC thin solid;
+	border-left: #6699CC thin solid;
+	border-right: #6699CC thin solid;
+	border-top: #6699CC thin solid;
+}
+
+div.content
+{
+    width: 100%;
+    margin :5px;
+    text-align: left;
+    background-color: White;
+    height : 100%;
+    overflow:hidden;
+}
+
+a:link, a:visited 	{ color: #0000FF; text-decoration:"underline";}
+
+a:active, a:hover 	{ color: #FF0000;  cursor:hand; text-decoration:"underline";}
+
+.validation-advice
+{
+	color: Red;
+}

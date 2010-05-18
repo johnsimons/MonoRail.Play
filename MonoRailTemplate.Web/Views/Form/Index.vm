@@ -1,0 +1,2 @@
+﻿<div>Hello $userName</div>
+<div>$Url.Link("Click here to go to the form screen", "%{action='main'}")</div>

@@ -1,0 +1,12 @@
+﻿<table style="width: 100%; height: 67px" cellspacing="3" cellpadding="3">
+    <tr>
+        <td>
+            $formData.Sex
+        </td>
+    </tr>
+    <tr>
+        <td>
+            $formData.Name
+        </td>
+    </tr>
+</table>

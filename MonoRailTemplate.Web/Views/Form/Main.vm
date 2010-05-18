@@ -1,0 +1,31 @@
+﻿$Form.FormTag("%{action='mainsave'}")
+#if($errors)
+<br/>
+<p class="validation-advice">
+    #foreach ($error in $errors.ErrorMessages) 
+        $error<br/>
+    #end
+</p>
+#end
+<table cellspacing="3" cellpadding="3">
+    <tr>
+        <td>
+            $Form.LabelFor("formData.Sex", "Sex:")
+        </td>
+        <td>
+            $Form.Select("formData.Sex", $sexTypes, "%{firstoption='Please select an option...', firstoptionvalue='', value='Key', text='Value'}")
+        </td>
+    </tr>
+    <tr>
+        <td>
+            $Form.LabelFor("formData.Name", "Name:")
+        </td>
+        <td>
+            $Form.TextField("formData.Name", "%{style='width: 120px;', autocompletetype='Disabled'}")
+        </td>
+    </tr>
+</table>
+<p>
+    $Form.Submit("Save")
+</p>
+$Form.EndFormTag()
