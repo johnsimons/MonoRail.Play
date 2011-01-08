@@ -1,8 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoRailTemplate.Web", "MonoRailTemplate.Web\MonoRailTemplate.Web.csproj", "{D7990EEC-B494-48E0-BF4A-37DBCABEBCC7}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{E1D9E2C2-9B1D-4AAB-9211-E808D1E3E052}"
 	ProjectSection(SolutionItems) = preProject
 		Dependencies\Castle.Components.Binder.dll = Dependencies\Castle.Components.Binder.dll
@@ -42,6 +40,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencie
 		Dependencies\NVelocity.dll = Dependencies\NVelocity.dll
 		Dependencies\NVelocity.xml = Dependencies\NVelocity.xml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoRailTemplate.Web", "MonoRailTemplate.Web\MonoRailTemplate.Web.csproj", "{D7990EEC-B494-48E0-BF4A-37DBCABEBCC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
